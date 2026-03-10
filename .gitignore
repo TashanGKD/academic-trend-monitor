@@ -1,0 +1,37 @@
+# Local data inputs
+data/input/
+data/processed/
+data/raw/**
+!data/raw/.gitkeep
+
+# Generated pipeline outputs
+data/output/**
+!data/output/.gitkeep
+!data/output/bertopic/
+!data/output/bertopic/.gitkeep
+!data/output/hierarchy/
+!data/output/hierarchy/.gitkeep
+data/recent.jsonl
+data/weekly/**
+!data/weekly/.gitkeep
+data/analysis/**
+!data/analysis/.gitkeep
+
+# Generated frontend assets
+frontend/public/data/**
+!frontend/public/data/.gitkeep
+frontend/dist/
+
+# Dependency caches
+node_modules/
+frontend/node_modules/
+__pycache__/
+.pytest_cache/
+
+# Model artifacts
+*.pkl
+*.npy
+
+# Misc
+*.log
+.DS_Store
